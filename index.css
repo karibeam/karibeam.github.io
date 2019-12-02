@@ -1,0 +1,156 @@
+.text-center { 
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;  
+}
+
+.flex-item {
+    flex: 1;
+    justify-content: center;
+}
+
+#carga-esq {
+    top: -31px;
+    left: 44px;
+    width:230px;
+    height:50px;
+    visibility: hidden;
+}
+#carga-dir {
+    top: -31px;
+    left: 272px;
+    width:229px;
+    height:50px;
+    visibility: hidden;
+}
+#valor-carga1 {
+    position: absolute;
+    top: -72px;
+    left: 151px;
+    visibility: hidden;
+}
+
+#valor-carga2 {
+    position: absolute;
+    top: -72px;
+    left: 368px;
+    visibility: hidden;
+}
+
+#distancia-viga1 {
+    position: absolute;
+    top: 30px;
+    left: 151px; 
+    visibility: hidden;
+}
+
+#distancia-viga2 {
+    position: absolute;
+    top: 30px;
+    left: 372px;
+    visibility: hidden;
+}
+
+#dmf {
+    visibility: hidden
+}
+
+#visualizacao {
+    background-color: white;
+}
+
+#maximo1 {
+    position: absolute;
+    top: 290px;
+    left: 122px;
+}
+
+#maximo2 {
+    position: absolute;
+    top: 290px;
+    left: 384px;
+}
+
+#maximo-b1 {
+    position: absolute;
+    top: 70px;
+    left: 160px;
+}
+
+#maximo-b2 {
+    position: absolute;
+    top: 70px;
+    left: 282px;
+}
+
+.form-padding { 
+   padding: 0px 50px;
+}
+
+.title-padding { 
+    padding: 0px  200px;
+}
+
+
+.title-padding2 { 
+    padding: 0px  170px;
+}
+
+.title-padding3 { 
+    padding: 0px  140px;
+}
+
+#dec {
+    top: 250px;
+    left: 400px;
+    visibility: hidden;
+}
+
+h1 {
+    margin:0px;
+}
+
+#valor-dec1 {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+#valor-dec2 {
+    position: absolute;
+    top: 80px;
+    left: 95px;
+}
+
+#valor-dec3 {
+    position: absolute;
+    top: 280px;
+    left: 110px;
+}
+
+#valor-dec4 {
+    position: absolute;
+    top: 280px;
+    left: 210px;
+}
+
+#A {
+    position: absolute;
+    top: 10px;
+    left: 20px
+}
+
+#B {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+
+#C {
+    position: absolute;
+    top: 10px;
+    left: 510px;
+}
